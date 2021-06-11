@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    color: #fff;
+}
+
+img {
+    width: 100%;
+    min-height: 100%;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 10px;
+    height: 100%;
+    overflow: auto;
+    background-color: #212f3d;
+    padding: 10px 20px;
+    border: solid 3px #12b874;
+}
+
+fieldset {
+    margin: 20px 0;
+    padding: 15px 5px;
+    border: solid 2px #B33F40;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.image img {
+    border-radius: 40%;
+}
+
+.caption {
+    margin-top: 20px;
+    padding: 7px 0;
+    background-color: black;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'Alex Brush', cursive;
+    letter-spacing: 3px;
+}
+
+.bio {
+    max-width: 550px;
+    margin: auto;
+    color: #fff;
+}
+
+.bio h3 {
+    font-size: 25px;
+}
+
+.bio ul {
+    padding: 0 30px;
+}
+
+.citation {
+    margin: 20px 0 30px 0;
+    color: #fff;
+}
+
+.citation a {
+    color: #f1c40f;
+}
+
+footer {
+    max-width: 600px;
+    margin: auto;
+}
+
+footer a {
+    color: #B33F40;
+}
